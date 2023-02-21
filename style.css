@@ -85,7 +85,7 @@ p{
 .canciones{
     margin-top: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: col;
 
     width: 1000px;
     
