@@ -82,16 +82,18 @@ p{
     margin-block-end: 80px;
     margin-left: 80px;
 }
-.canciones{
+.hola{
+    width: 1400px;
     margin-top: 300px;
     display: flex;
     flex-direction: col;
 
-    width: 1000px;
+
     
 }
 .accordion{
     margin-left: 80px;
+    margin-right: 80px;
     
 }
 .fotos{
@@ -99,6 +101,8 @@ margin-left: 60px;
     height: 100px;
     width: 700px;
 }
+
+
 .foto{
 
     margin-top: 20px;
@@ -114,6 +118,18 @@ h1{
     display: flex;
     justify-content: end;
     
+}
+h2{
+    display: flex;
+color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+h4{
+    display: flex;
+color: aliceblue;
+  justify-content: center;
 }
 
 .texto{
@@ -131,4 +147,34 @@ color: rgb(48, 47, 47);
     height: 500px;
     width: 1400px;
         
+    }
+
+h2{
+    height: 300px;
+    justify-content: center;
+        }
+
+footer{
+        position:static;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+       left:0px;
+       bottom:0px;
+       height:200px;
+       width:100%;
+       background-size: cover;
+       background:#000000;
+    }
+        
+    
+    
+    footer>h1{
+        width: 100%;
+        display: flex;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
     }
